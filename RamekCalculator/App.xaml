@@ -1,9 +1,16 @@
 ﻿<Application x:Class="RamekCalculator.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RamekCalculator"
+             xmlns:viewModels="clr-namespace:RamekCalculator.ViewModels"
+             xmlns:views="clr-namespace:RamekCalculator.Views"
              StartupUri="Views/MainView.xaml">
     <Application.Resources>
-         
+         <DataTemplate DataType="{x:Type viewModels:CalculatorViewModel}">
+             <views:CalculatorView/>
+         </DataTemplate>
+        
+        <Style TargetType="views:MainView">
+            
+        </Style>
     </Application.Resources>
 </Application>

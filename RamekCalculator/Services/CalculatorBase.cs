@@ -6,9 +6,7 @@ namespace RamekCalculator.Services
     {
         public Decimal Add(Decimal v1, Decimal v2)
         {
-            Console.Write("Adding {0} to {1}:", v1, v2);
             Decimal result = Decimal.Add(v1, v2);
-            Console.WriteLine(result);
             return result;
         }
 
