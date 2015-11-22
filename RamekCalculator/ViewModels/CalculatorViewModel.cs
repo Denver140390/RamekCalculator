@@ -114,7 +114,7 @@ namespace RamekCalculator.ViewModels
             PlusMinusCommand = new ActionCommand(ChangeSign);
         }
 
-        #region Operations Commands
+        #region Operation Commands
 
         public ActionCommand AddCommand { get; private set; }
         public ActionCommand SubtractCommand { get; private set; }
@@ -219,7 +219,7 @@ namespace RamekCalculator.ViewModels
             }
         }
 
-        #endregion Operations Commands
+        #endregion Operation Commands
 
         #region Input Commands
 
