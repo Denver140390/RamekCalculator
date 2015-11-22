@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="RamekCalculator.CalculatorView"
+﻿<UserControl x:Class="RamekCalculator.Views.CalculatorView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>

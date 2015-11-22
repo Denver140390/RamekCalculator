@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace RamekCalculator
+namespace RamekCalculator.Views
 {
     public partial class CalculatorView : UserControl
     {

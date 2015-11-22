@@ -1,6 +1,7 @@
 ﻿using System;
+using RamekCalculator.Services;
 
-namespace RamekCalculator
+namespace RamekCalculator.ViewModels
 {
     public sealed class CalculatorViewModel : ViewModelBase
     {

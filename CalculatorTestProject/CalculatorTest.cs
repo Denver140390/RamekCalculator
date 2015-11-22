@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RamekCalculator;
+using RamekCalculator.Services;
 
 namespace CalculatorTestProject
 {

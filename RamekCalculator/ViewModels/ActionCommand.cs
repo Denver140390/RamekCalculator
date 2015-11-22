@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace RamekCalculator
+namespace RamekCalculator.ViewModels
 {
     public sealed class ActionCommand : ICommand
     {

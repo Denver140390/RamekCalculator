@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace RamekCalculator
+namespace RamekCalculator.Views
 {
     public partial class MainView : Window
     {

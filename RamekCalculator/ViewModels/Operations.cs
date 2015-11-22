@@ -1,4 +1,4 @@
-﻿namespace RamekCalculator
+﻿namespace RamekCalculator.ViewModels
 {
     public enum Operations
     {

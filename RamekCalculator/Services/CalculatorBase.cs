@@ -1,6 +1,6 @@
 using System;
 
-namespace RamekCalculator
+namespace RamekCalculator.Services
 {
     public abstract class CalculatorBase
     {

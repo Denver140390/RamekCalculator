@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using RamekCalculator.Annotations;
 
-namespace RamekCalculator
+namespace RamekCalculator.ViewModels
 {
     public class ViewModelBase : INotifyPropertyChanged
     {
